@@ -59,5 +59,20 @@ public void setNotation(String notation)
 	mNotation = notation;
 }
 
+public static void main(String args[]){
+	
+	Integer i = x;
+	String first = title;
+	String second = altTitle;
+	String third = notation;
+	
+	System.out.println(i.toString());
+	System.out.println(first.toString());
+	System.out.println(second.toString());
+	System.out.println(third.toString());
+	
+	
+}
+
 
 }
