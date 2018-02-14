@@ -78,7 +78,11 @@ public static void main(String args[]){
 
 interface Player{
 	
-	void play();
+	void play(){
+		
+		
+		
+	}
 }
 
 
