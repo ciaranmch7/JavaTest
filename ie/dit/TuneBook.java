@@ -41,7 +41,7 @@ public void addStr(String str){
 
 BufferedReader inputStream = null;
 try {
-    inputStream = new BufferedReader(new FileReader("words.txt"));
+    inputStream = new BufferedReader(new FileReader("hnj0.abc"));
     
     String l;
     while ((l = inputStream.readLine()) != null) 
