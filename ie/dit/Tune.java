@@ -44,7 +44,7 @@ public String getAltTitle()
 	return mAltTitle;
 }
 
-public void setTitle(String title)
+public void setAltTitle(String title)
 {
 	mAltTitle = altTitle;
 }
@@ -71,6 +71,8 @@ public static void main(String args[]){
 	System.out.println(second.toString());
 	System.out.println(third.toString());
 	
+	Tunebook obj = new Tunebook();
+	obj.addStr();
 	
 }
 
