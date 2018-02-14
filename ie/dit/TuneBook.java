@@ -80,8 +80,18 @@ public String toString(){
 public Tune findTune(String title){
 	
 	
+      boolean  result = str1.contentsEquals(tunes);
+      System.out.println(result);
 	
 }
+public static void main(String[] args)
+    {
+        TuneBook tb = new TuneBook("hnj0.abc");
+        System.out.println(tb);
+
+        Tune t = tb.findTune("Scotsman over the Border");
+        t.play();
+    }
 	
 	
 	
